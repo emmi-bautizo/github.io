@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <title>Bautizo de Emmilia</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class ="locked">
+
+<div id="overlay-blur"></div>
+
+<section class="spotlight">
+    <div class="container">
+
+        <div class="celebracion">
+
+            <div class="celebracion-title" style="font-size:48px;">
+                Acompáñame a celebrar
+            </div>
+
+            <div class="celebracion-title celebracion-main">
+                " Mi Bautizo"
+            </div>
+
+            <div class="circle-image">
+                <img src="emmi.jpeg" alt="Emmilia">
+            </div>
+
+            <div class="celebracion-title">
+                y mi primer cumpleaños
+            </div>
+
+            <div class="celebracion-title celebracion-age">
+                1
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                <span></span>
+            </div>
+
+
+        </div>
+
+        
+
+    </div>
+</section>
+
+<div id="page-content">
+
+    <div class="container">
+
+        <div class="frames">
+            <div class="frame">
+                <div class="frame-title">MIS PADRES</div>
+                <div class="frame-divider"></div>
+                <p class="nombres">
+                    Lyssetth Aguilar Carrasco<br>
+                    Mario Campero Montealegre
+                </p>
+            </div>
+
+            <div class="frame">
+                <div class="frame-title">MIS MADRINAS</div>
+                <div class="frame-divider"></div>
+                <p class="nombres">
+                    Valeria Aguilar Carrasco<br>
+                    Karla Lopez Carrasco
+                </p>
+            </div>
+        </div>
+        <div class="divider"></div>
+
+        <div class="fecha-evento">
+            <div class="fecha-dia">Sábado 6</div>
+            <div class="fecha-mes">de Junio</div>
+            <div class="fecha-anio">2026</div>
+        </div>
+
+        <div class="divider"></div>
+
+        <section class="countdown">
+            <h2 class="countdown-title">Faltan</h2>
+
+            <div class="countdown-cards">
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>Días</small>
+                </div>
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>Horas</small>
+                </div>
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>Minutos</small>
+                </div>
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>Segundos</small>
+                </div>
+            </div>
+
+            <p id="event-message" class="event-message"></p>
+        </section>
+
+        <div class="divider"></div>
+
+        <div class="card">
+            <div class="misa"></div>
+            <h2>Misa</h2>
+            <p class="time">01:00 PM</p>
+            <p class="lugar" style="font-weight: bold">Parroquia del Sagrado Corazón de Jesús</p>
+            <p>
+                Fray Servando Teresa de Mier #970,<br>
+                Jardín Balbuena, Venustiano Carranza,<br>
+                15900, Ciudad de México
+            </p>
+            <a class="button" href="https://maps.app.goo.gl/QnY776qRBTUepS3C6" target="_blank">
+                Ver ubicación
+            </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="card">
+            <div class="globos"></div>
+            <h2>Recepción</h2>
+            <p class="time">04:00 PM</p>
+            <p class="lugar" style="font-weight: bold">Salón COME PLAY</p>
+            <p>
+                Pte. 118 No 333 C, Capultitlan,<br>
+                Gustavo A. Madero, 07370 Ciudad de México
+            </p>
+            <a class="button" href="https://maps.app.goo.gl/EVHa5zfvFKyfgYLY6" target="_blank">
+                Ver ubicación
+            </a>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="card" id="boletos-card">
+            <div class="boleto"></div>
+            <h2>Boletos asignados</h2>
+            <p id="boletos-texto">
+                Invitación válida para <strong>—</strong> personas
+            </p>
+        </div>
+
+        <div class="card" id="boletos-card">
+            <div class="map"></div>
+            <h2>Mapa de lugares</h2>
+            <a class="button" target="_blank">
+                Ver ubicación
+            </a>
+        </div>
+
+        <div class = "abeja"></div>
+<!--
+        <div class="bear">
+            <div class="bear-text">
+                <span class="bear-name">Emmilia</span>
+                <span class="bear-age">1</span>
+            </div>
+        </div>-->
+
+    </div>
+</div>
+
+<footer>
+    Con cariño, familia de Emmilia
+</footer>
+
+<script src="countdown.js" defer></script>
+<script src="tickets.js" defer></script>
+<script src="spotlight.js" defer></script>
+
+</body>
+</html>
